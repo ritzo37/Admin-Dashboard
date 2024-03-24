@@ -129,13 +129,19 @@ button {
 }
 
 .announcements {
-    border: 2px solid black;
-    width: 50%;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    border : 2px solid black ;
+    padding : 10px ;
 }
 
 .trending {
-    border: 2px solid black;
-    width: 50%;
+    height: 150px;
+    width: 200px;
+    border-radius: 8px;
+    border : 2px solid black ;
+    padding : 10px ;
 }
 
 .cards {
@@ -194,4 +200,33 @@ button {
 
 .icons {
     margin-top : auto ;
+}
+
+.announcement-heading {
+    font-size: 20px;
+}
+
+img[alt="trending-icons"] {
+    height: 30px; 
+}
+
+.trending {
+    display: flex;
+    flex-direction: column;
+    gap : 10px ;
+}
+
+.trending-icons-container {
+    display: flex;
+    align-items: center;
+    gap : 10px ;
+}
+
+.hello{
+    font-weight: 900;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: 900;
 }
